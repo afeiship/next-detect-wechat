@@ -2,7 +2,7 @@
 
   var global = global || this || self || window;
   var nx = global.nx || require('next-js-core2');
-  var USER_AGENT = global.navigator.userAgent;
+  var USER_AGENT = global.navigator.userAgent.toLowerCase();
   var WECHAT_RE = /MicroMessenger/i;
   var MICROMESSENGER = 'micromessenger';
 
